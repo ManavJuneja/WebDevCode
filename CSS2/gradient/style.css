@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+}
+.box{
+    border: 1px solid maroon;
+    height:200px;
+    width: 200px;
+    background-image:linear-gradient(red,black);
+    background-image: linear-gradient(to right,red,blue,black);
+    background-image: linear-gradient(to bottom right,rgba(255, 0, 0, 0.388),rgb(93, 93, 235),rgb(218, 234, 117));
+   /* background-image: linear-gradient(to right,red,blue,black);*/
+}
+.rg{ 
+    display: block;
+    border: 1px solid green;
+    height: 200px;
+    width: 200px;
+    background-image: radial-gradient(rgb(244, 244, 109),rgb(255, 166, 0),red);
+}

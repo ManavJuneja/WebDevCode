@@ -1,0 +1,13 @@
+.box1{
+    border: 3px solid rebeccapurple;
+    transform: rotate();
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    
+}
+
+
+.img:hover{
+    transform: rotate(60deg);
+}

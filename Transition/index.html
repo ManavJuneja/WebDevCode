@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 12%;
+            height: 30px;
+            background-color: blueviolet;
+            border: 2px solid red;
+            border-radius: 10px;
+            /* transition-property: all;
+            transition-duration: 2s;
+            transition-delay: 1s;
+            transition-timing-function: ease-in-out; */
+
+
+
+        /* transition: all 2s ease-in-out 1s;
+         */
+         /* transition: width 2s,height 3s ;
+          */
+          transition: all 1s ease-out;
+        
+        }
+        
+        .box:hover{
+            width: 1000px;
+            height: 200px;
+            background-color: blue;
+            font-size: 80px;
+
+        }
+        /* shorthand notation */
+        
+    </style>
+</head>
+<body>
+    <div class="box">Hello, Hover me to change</div>
+    
+</body>
+</html>

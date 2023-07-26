@@ -1,0 +1,21 @@
+div{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    color: blue;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.bigdiv{
+    width: 100vw;
+    height: 2000px;
+    background-color: blueviolet;
+}
+
+#box3{
+    position: relative;
+    top:100px
+}
+#box1{
+    position: fixed;
+}
